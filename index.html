@@ -39,6 +39,15 @@
         -ms-overflow-style: none; /* IE and Edge */
         scrollbar-width: none; /* Firefox */
       }
+      @media (max-width:576px){
+        .bottom-div{
+          flex-direction: row !important;
+          
+        }
+        .card-bottom{
+          width: 130px;
+        }
+      }
     </style>
     <title>Furniture</title>
   </head>
@@ -595,7 +604,7 @@
 
     <div class="container mb-5">
       <div class="row mb-5">
-        <div class="col-sm-6">
+        <div class="col-sm-6 mb-3">
           <div class=" flex flex-col justify-between h-100">
             <p class="text-sm text-yellow-500 fw-semibold">Articles</p>
             <h1 class="text-2xl fw-semibold">
@@ -690,7 +699,7 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-6 flex flex-col justify-between">
+        <div class="col-sm-6 flex gap-3 flex-col justify-between">
           <div class=" flex">
             <img
               src="https://img.zumpercdn.com/538292187/1280x960?fit=crop&h=360&w=392"
@@ -793,8 +802,8 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-md-5">
+      <div class="row bottom-div">
+        <div class="col-sm-5 col-md-5 mb-3 card-bottom">
           <div>
           <h1 class="text-sm fw-bold mb-2">furniture</h1>
           <p class="line-clamp-4 text-xs">
@@ -802,26 +811,26 @@
           </p>
           </div>
         </div>
-        <div class="col-md-1"></div>
-        <div class="col-md-2">
-          <div>
+        <div class="col-sm-1 col-md-1 "></div>
+        <div class="col-sm-2 col-md-2 mb-3 card-bottom">
+          
             <p class="text-sm fw-semibold mb-2">Products</p>
             <p class="text-xs fw-medium mb-2 capitalize">new arrivals</p>
             <p class="text-xs fw-medium mb-2 capitalize">best selling</p>
             <p class="text-xs fw-medium mb-2 capitalize">home decore</p>
             <p class="text-xs fw-medium mb-2 capitalize">kitcen set</p>
-          </div>
+          
         </div>
-        <div class="col-md-2">
-          <div>
+        <div class="col-sm-2 col-md-2 mb-3 card-bottom">
+          
             <p class="text-sm fw-semibold mb-2">Products</p>
             <p class="text-xs fw-medium mb-2 capitalize">Catalog</p>
             <p class="text-xs fw-medium mb-2 capitalize">best selling</p>
             <p class="text-xs fw-medium mb-2 capitalize">FaQ</p>
             <p class="text-xs fw-medium mb-2 capitalize">Pricing</p>
-          </div>
+          
         </div>
-        <div class="col-md-2">
+        <div class="col-sm-2 col-md-2 mb-3 card-bottom">
           <div>
             <p class="text-sm fw-semibold mb-2">Follow us</p>
             <p class="text-xs fw-medium mb-2 capitalize">facebook</p>
